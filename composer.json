@@ -1,8 +1,5 @@
 {
     "name": "hexlet/code",
-    "bin": [
-        "bin/brain-games.php"
-    ],
     "description": "first php-project",
     "type": "project",
     "autoload": {
