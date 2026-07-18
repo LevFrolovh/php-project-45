@@ -1,5 +1,5 @@
 install: # установить зависимости
 	composer install
 
-brain-games: # запуст игр
+brain-games: # запуск игр
 	php bin/brain-games.php
