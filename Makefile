@@ -3,3 +3,6 @@ install: # установить зависимости
 
 brain-games: # запуск игр
 	./bin/brain-games
+
+validate:
+	composer validate
