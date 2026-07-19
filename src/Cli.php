@@ -9,6 +9,5 @@ function getName()
 {
   line('Welcome to the Brain Game!');
   $name = prompt('May I have your name?');
-  $greetings = line("Hello, %s!", $name);
-  return $greetings;
+  line("Hello, %s!", $name);
 }
