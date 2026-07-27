@@ -16,10 +16,10 @@ function isEven($number)
 function even()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
-    $number = rand(0, 100);
-    $rightAnswer = isEven($number);
     $round = 0;
     while ($round < 3) {
+        $number = rand(0, 100);
+        $rightAnswer = isEven($number);
         $answer = prompt("Question: {$number}");
         line("Your answer: %s", $answer);
         if ($answer === $rightAnswer) {
@@ -31,5 +31,5 @@ function even()
             break;
         }
     }
-    line('Congratulations, Lev!');
+    #line('Congratulations, Lev!');
 }
