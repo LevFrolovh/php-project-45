@@ -5,7 +5,6 @@ namespace BrainGames\Even;
 use function cli\line;
 use function cli\prompt;
 use BrainGames\Cli;
-Cli\greetings();
 
 function isEven($number)
 {
@@ -15,6 +14,7 @@ function isEven($number)
         return "no";
     }
 }
+Cli\greetings();
 function even()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
