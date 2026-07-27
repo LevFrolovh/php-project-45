@@ -25,11 +25,15 @@ function even()
         if ($answer === $rightAnswer) {
             line('Correct!');
             $round++;
+            $win = true;
         } else {
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, Lev!");
+            $win = false;
             break;
         }
     }
-    #line('Congratulations, Lev!');
+    if ($win) {
+        line('Congratulations, Lev!');
+    }
 }
