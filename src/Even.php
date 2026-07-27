@@ -13,7 +13,7 @@ function isEven($number)
         return "no";
     }
 }
-    
+   
 function even()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
@@ -21,7 +21,6 @@ function even()
     $rightAnswer = isEven($number);
     $answer = prompt("Question: {$number}");
     line("Your answer: %s", $answer);
-    
     if ($answer === $rightAnswer) {
         line('Correct!');
     } else {
