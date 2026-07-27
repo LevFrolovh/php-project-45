@@ -4,6 +4,8 @@ namespace BrainGames\Even;
 
 use function cli\line;
 use function cli\prompt;
+use BrainGames\Cli;
+Cli\greetings();
 
 function isEven($number)
 {
