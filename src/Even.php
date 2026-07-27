@@ -23,7 +23,7 @@ function even()
     if ($answer === $rightAnswer) {
         line('Correct!');
     } else {
-        line("{$answer} is wrong answer ;(. Correct answer was {$rightAnswer}.");
+        line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
         line("Let's try again, Lev!");
     }
 }
