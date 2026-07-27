@@ -2,8 +2,8 @@
 
 namespace BrainGames\Even;
 
-use function cli\line;
-use function cli\prompt;
+use function even\line;
+use function even\prompt;
 
 function even()
 {
