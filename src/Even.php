@@ -35,6 +35,6 @@ function even()
         }
     }
     if ($win) {
-        line('Congratulations, {$name}!');
+        line("Congratulations, {$name}!");
     }
 }
