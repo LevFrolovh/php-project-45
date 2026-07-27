@@ -4,6 +4,9 @@ install: # установить зависимости
 brain-games: # запуск игр
 	./bin/brain-games
 
+brain-even: #запуск игры на чёт/нечёт
+	./bin/brain-even
+
 validate:
 	composer validate
 
