@@ -17,7 +17,7 @@ function isEven($number)
 }
 function even()
 {
-    Cli\greetings();
+    use Cli\greetings();
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $round = 0;
     while ($round < 3) {
