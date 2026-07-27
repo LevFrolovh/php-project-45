@@ -13,7 +13,6 @@ function isEven($number)
         return "no";
     }
 }
-   
 function even()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
