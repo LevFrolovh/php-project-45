@@ -18,12 +18,17 @@ function even()
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $number = rand(0, 100);
     $rightAnswer = isEven($number);
-    $answer = prompt("Question: {$number}");
-    line("Your answer: %s", $answer);
-    if ($answer === $rightAnswer) {
-        line('Correct!');
-    } else {
-        line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-        line("Let's try again, Lev!");
+    $round = 0;
+    while ($round < 3) {
+        $answer = prompt("Question: {$number}");
+        line("Your answer: %s", $answer);
+        if ($answer === $rightAnswer) {
+            line('Correct!');
+            $round++;
+        } else {
+            line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
+            line("Let's try again, Lev!");
+            break;
+        }
     }
 }
