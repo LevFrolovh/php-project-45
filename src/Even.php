@@ -1,6 +1,7 @@
 <?php
 
 namespace BrainGames\Even;
+namespace BrainGames\Cli;
 
 use function cli\line;
 use function cli\prompt;
@@ -28,12 +29,12 @@ function even()
             $round++;
         } else {
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-            line("Let's try again, Lev!");
+            line("Let's try again, {$name}!");
             $win = false;
             break;
         }
     }
     if ($win) {
-        line('Congratulations, Lev!');
+        line('Congratulations, {$name}!');
     }
 }
