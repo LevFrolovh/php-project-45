@@ -17,7 +17,7 @@ function isEven($number)
 function even()
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
-    $number = rand();
+    $number = rand(0, 100);
     $rightAnswer = isEven($number);
     $answer = prompt("Question: {$number}");
     line("Your answer: %s", $answer);
