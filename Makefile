@@ -1,5 +1,6 @@
 install: # установить зависимости
 	composer install
+	composer global require "squizlabs/php_codesniffer=*"
 
 brain-games: # запуск игр
 	./bin/brain-games
