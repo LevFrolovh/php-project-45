@@ -1,7 +1,7 @@
 <?php
 
 namespace BrainGames\Even;
-require_once 'src/Cli.php';
+require_once 'Cli.php';
 
 use function cli\line;
 use function cli\prompt;
