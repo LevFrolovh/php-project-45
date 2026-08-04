@@ -18,9 +18,6 @@ function isEven($number)
 function even()
 {
     greetings();
-    #line('Welcome to the Brain Games!');
-    #$name = prompt('May I have your name?');
-    #line("Hello, %s!", $name);
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $round = 0;
     while ($round < 3) {
