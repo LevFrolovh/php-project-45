@@ -5,6 +5,7 @@ require_once 'Cli.php';
 
 use function cli\line;
 use function cli\prompt;
+use function cli\greetings;
 
 function isEven($number)
 {
