@@ -1,7 +1,9 @@
+
 <?php
 
-namespace BrainGames\Even;
 require_once __DIR__ . '/Cli.php';
+
+namespace BrainGames\Even;
 
 use function cli\line;
 use function cli\prompt;
