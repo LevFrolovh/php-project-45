@@ -1,11 +1,11 @@
 <?php
 
 namespace BrainGames\Even;
-require_once 'Cli.php';
+require_once __DIR__ . '/Cli.php';
 
 use function cli\line;
 use function cli\prompt;
-use function cli\greetings;
+use function BrainGames\Cli\greetings;
 
 function isEven($number)
 {
