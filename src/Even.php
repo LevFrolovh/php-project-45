@@ -20,8 +20,9 @@ function even()
     $name = greetings();
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $round = 0;
+    $win = true;
+    
     while ($round < 3) {
-        $win = true;
         $number = rand(0, 100);
         $rightAnswer = isEven($number);
         $answer = prompt("Question: {$number}");
