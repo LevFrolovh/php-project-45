@@ -26,8 +26,7 @@ function even()
         $number = rand(0, 100);
         $rightAnswer = isEven($number);
         line("Question: {$number}");
-        $answer = prompt();
-        prompt("Your answer: ", $answer);
+        $answer = prompt('Your answer: ');
         if ($answer === $rightAnswer) {
             line('Correct!');
             $round++;
