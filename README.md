@@ -14,9 +14,6 @@
 * [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LevFrolovh_php-project-45&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LevFrolovh_php-project-45)
 
 ### Asciinemas:
-[![asciicast](https://asciinema.org/a/cgbR1OK96CjGSMmf.svg)](https://asciinema.org/a/cgbR1OK96CjGSMmf)
-Install dependencies
-[![asciicast](https://asciinema.org/a/ioM5OdhlKS2wlmuR.svg)](https://asciinema.org/a/ioM5OdhlKS2wlmuR)
-Brain-even (win)
-[![asciicast](https://asciinema.org/a/NKFVURiMp8kHYK3W.svg)](https://asciinema.org/a/NKFVURiMp8kHYK3W)
-Brain-even (lose)
+Install dependencies - https://asciinema.org/a/cgbR1OK96CjGSMmf
+Brain-even (win) - https://asciinema.org/a/ioM5OdhlKS2wlmuR
+Brain-even (lose) - https://asciinema.org/a/NKFVURiMp8kHYK3W
