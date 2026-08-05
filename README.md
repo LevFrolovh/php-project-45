@@ -15,5 +15,8 @@
 
 ### Asciinemas:
 [![asciicast](https://asciinema.org/a/cgbR1OK96CjGSMmf.svg)](https://asciinema.org/a/cgbR1OK96CjGSMmf)
+Install dependencies
 [![asciicast](https://asciinema.org/a/ioM5OdhlKS2wlmuR.svg)](https://asciinema.org/a/ioM5OdhlKS2wlmuR)
+Brain-even (win)
 [![asciicast](https://asciinema.org/a/NKFVURiMp8kHYK3W.svg)](https://asciinema.org/a/NKFVURiMp8kHYK3W)
+Brain-even (lose)
