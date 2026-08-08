@@ -10,7 +10,7 @@ function expression()
 {
     $num1 = rand(0, 10);
     $num2 = rand(0, 10);
-    return "{$num1}+{$num2}";
+    return "{$num1} + {$num2}";
 }
 
 function calc()
@@ -21,7 +21,7 @@ function calc()
     $win = true;
     while ($round < 3) {
         $expression = expression();
-        $rightAnswer = (int) $expression;
+        $rightAnswer = eval($expression);
         line("Question: {$expression}");
         $answer = prompt('Your answer');
         if ($answer === $rightAnswer) {
