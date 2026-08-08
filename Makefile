@@ -8,6 +8,9 @@ brain-games: # запуск игр
 brain-even: #запуск игры на чёт/нечёт
 	./bin/brain-even
 
+brain-calc: #запуск игры калькулятор
+	./bin/brain-calc
+
 validate:
 	composer validate
 
