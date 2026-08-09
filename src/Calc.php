@@ -26,7 +26,7 @@ function calc()
         $rightAnswer = eval("return {$exp};");
         line("Question: {$exp}");
         $answer = prompt('Your answer');
-        if ($answer === $rightAnswer) {
+        if ($answer == $rightAnswer) {
             line('Correct!');
             $round++;
         } else {
