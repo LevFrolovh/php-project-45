@@ -11,7 +11,7 @@ function expression()
     $num1 = rand(0, 10);
     $num2 = rand(0, 10);
     $operators = '+-*';
-    $operator = $operators[rand(0, 2)]; 
+    $operator = $operators[rand(0, 2)];
     return "{$num1} {$operator} {$num2}";
 }
 
