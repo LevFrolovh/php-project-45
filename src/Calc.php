@@ -10,7 +10,9 @@ function expression()
 {
     $num1 = rand(0, 10);
     $num2 = rand(0, 10);
-    return "{$num1} + {$num2}";
+    $operators = '+-*';
+    $operator = $operators[rand(0, 2)]; 
+    return "{$num1} {$operator} {$num2}";
 }
 
 function calc()
@@ -20,9 +22,9 @@ function calc()
     $round = 0;
     $win = true;
     while ($round < 3) {
-        $expression = expression();
-        $rightAnswer = eval($expression);
-        line("Question: {$expression}");
+        $exp = expression();
+        $rightAnswer = eval("return {$exp};");
+        line("Question: {$exp}");
         $answer = prompt('Your answer');
         if ($answer === $rightAnswer) {
             line('Correct!');
