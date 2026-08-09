@@ -15,5 +15,5 @@
 
 ### Asciinemas:
 * Install dependencies - https://asciinema.org/a/cgbR1OK96CjGSMmf
-* Brain-even (win & lose) - https://asciinema.org/a/gU8lLvZ7Rm1WEg5R
-* Brain-calc (win & lose) - https://asciinema.org/a/xu2wf9P08W2wORzh
+* Brain-even - https://asciinema.org/a/gU8lLvZ7Rm1WEg5R
+* Brain-calc - https://asciinema.org/a/xu2wf9P08W2wORzh
