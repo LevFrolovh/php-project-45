@@ -22,7 +22,7 @@ function even()
     line('Answer "yes" if the number is even, otherwise answer "no".');
     $round = 0;
     $win = true;
-    while ($round < 3) {
+    while ($round < 3 || $win === true) {
         $number = rand(0, 100);
         $rightAnswer = isEven($number);
         line("Question: {$number}");
@@ -34,7 +34,6 @@ function even()
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}!");
             $win = false;
-            break;
         }
     }
     if ($win) {
