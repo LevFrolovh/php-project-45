@@ -25,6 +25,6 @@ function even()
         $number = rand(0, 100);
         $rightAnswer = isEven($number);
         line("Question: {$number}");
-        engine($rightAnswer);
+        engine($win, $round, $rightAnswer);
     }
 }
