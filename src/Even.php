@@ -5,6 +5,7 @@ namespace BrainGames\Even;
 use function cli\line;
 use function cli\prompt;
 use function BrainGames\Cli\greetings;
+use function BrainGames\Engine\engine;
 
 function isEven($number)
 {
@@ -24,17 +25,5 @@ function even()
         $number = rand(0, 100);
         $rightAnswer = isEven($number);
         line("Question: {$number}");
-        $answer = prompt('Your answer');
-        if ($answer === $rightAnswer) {
-            line('Correct!');
-            $round++;
-        } else {
-            line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-            line("Let's try again, {$name}!");
-            $win = false;
-        }
-    }
-    if ($win) {
-        line("Congratulations, {$name}!");
-    }
+        return engine($rightAnswer);
 }
