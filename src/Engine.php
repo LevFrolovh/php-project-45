@@ -5,7 +5,7 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 
-function engine($win = true, $round = 0, $rightAnswer)
+function engine($win, $round, $rightAnswer)
 {
     $answer = prompt('Your answer');
     if ($answer === $rightAnswer) {
