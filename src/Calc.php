@@ -21,7 +21,7 @@ function calc()
     line('What is the result of the expression?');
     $round = 0;
     $win = true;
-    while ($round < 3) {
+    while ($round < 3 && $win === true) {
         $exp = expression();
         $rightAnswer = eval("return {$exp};");
         line("Question: {$exp}");
@@ -33,7 +33,6 @@ function calc()
             line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
             line("Let's try again, {$name}!");
             $win = false;
-            break;
         }
     }
     if ($win) {
