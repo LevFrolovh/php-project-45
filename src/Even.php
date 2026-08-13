@@ -26,4 +26,5 @@ function even()
         $rightAnswer = isEven($number);
         line("Question: {$number}");
         engine($rightAnswer);
+    }
 }
