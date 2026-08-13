@@ -10,9 +10,11 @@ function engine($rightAnswer)
     $answer = prompt('Your answer');
     if ($answer === $rightAnswer) {
         line('Correct!');
+        $round++
     } else {
         line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
         line("Let's try again, {$name}!");
         $win = false;
+        break;
     }
 }
