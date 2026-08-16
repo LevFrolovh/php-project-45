@@ -22,7 +22,7 @@ function getQuestionAndAnswer()
 
 function even()
 {
-    $gameDescription = line('Answer "yes" if the number is even, otherwise answer "no".');
+    $gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
     $getQuestionAndAnswer = getQuestionAndAnswer();
     engine($getQuestionAndAnswer, $gameDescription);
 }
