@@ -15,8 +15,8 @@ function engine($getQuestionAndAnswer, $gameDescription)
     $win = true;
     while ($round < 3 && $win === true) {
         
-        [&$question, $rightAnswer] = $getQuestionAndAnswer;
-        line("Question: {&$question}");
+        [$question, $rightAnswer] = $getQuestionAndAnswer;
+        line("Question: {$question}");
         $answer = prompt('Your answer');
         
         if ($answer === $rightAnswer) {
