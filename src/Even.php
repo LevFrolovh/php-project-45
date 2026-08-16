@@ -15,9 +15,9 @@ function isEven($number)
 function getQuestionAndAnswer()
 {
     $number = rand(0, 100);
-    &$question = $number;
+    $question = $number;
     $rightAnswer = isEven($question);
-    return [&$question, $rightAnswer];
+    return [$question, $rightAnswer];
 }
 
 function even()
