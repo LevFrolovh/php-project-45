@@ -19,7 +19,7 @@ function engine(callable $getQuestionAndAnswer, $gameDescription)
         line("Question: {$question}");
         $answer = prompt('Your answer');
         
-        if ($answer === $rightAnswer) {
+        if ($answer == $rightAnswer) {
             line('Correct!');
             $round++;
         } else {
