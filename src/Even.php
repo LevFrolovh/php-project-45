@@ -9,33 +9,20 @@ use function BrainGames\Engine\engine;
 
 function isEven($number)
 {
-    if ($number % 2 === 0) {
-        return "yes";
-    } else {
-        return "no";
-    }
+    return $number % 2 === 0 ? "yes" : "no";
 }
+
+function getQuestionAndAnswer()
+{
+    $number = rand(0, 100);
+    $question = $number;
+    $rightAnswer = isEven($question);
+    return [$question, $rightAnswer];
+}
+
 function even()
 {
-    $name = greetings();
-    line('Answer "yes" if the number is even, otherwise answer "no".');
-    $round = 0;
-    $win = true;
-    while ($round < 3 && $win === true) {
-        $number = rand(0, 100);
-        $rightAnswer = isEven($number);
-        line("Question: {$number}");
-        $answer = prompt('Your answer');
-        if ($answer === $rightAnswer) {
-            line('Correct!');
-            $round++;
-        } else {
-            line("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
-            line("Let's try again, {$name}!");
-            $win = false;
-        }
-    }
-    if ($win) {
-        line("Congratulations, {$name}!");
-    }
+    $gameDescription = line('Answer "yes" if the number is even, otherwise answer "no".');
+    $getQuestionAndAnswer = getQuestionAndAnswer();
+    engine($getQuestionAndAnswer, $gameDescription);
 }
