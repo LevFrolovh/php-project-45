@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Cli\greetings;
 
-function engine($getQuestionAndAnswer, $gameDescription)
+function engine(callable $getQuestionAndAnswer, $gameDescription)
 {
     $name = greetings();
     line($gameDescription);
@@ -15,7 +15,7 @@ function engine($getQuestionAndAnswer, $gameDescription)
     $win = true;
     while ($round < 3 && $win === true) {
         
-        [$question, $rightAnswer] = $getQuestionAndAnswer;
+        [$question, $rightAnswer] = $getQuestionAndAnswer();
         line("Question: {$question}");
         $answer = prompt('Your answer');
         
