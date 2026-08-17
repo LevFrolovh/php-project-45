@@ -61,7 +61,7 @@ function getQuestionAndAnswer()
 function gcd()
 {
     $gameDescription = 'Find the greatest common divisor of given numbers.';
-    engine(function() {
+    engine(function () {
         return getQuestionAndAnswer();
     }, $gameDescription);
 }
