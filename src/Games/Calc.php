@@ -25,7 +25,7 @@ function getQuestionAndAnswer()
 function calc()
 {
     $gameDescription = 'What is the result of the expression?';
-    engine(function() {
+    engine(function () {
         return getQuestionAndAnswer();
     }, $gameDescription);
      
