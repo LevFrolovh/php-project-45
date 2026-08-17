@@ -28,5 +28,4 @@ function calc()
     engine(function () {
         return getQuestionAndAnswer();
     }, $gameDescription);
-     
 }
