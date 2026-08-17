@@ -32,6 +32,10 @@ function getGcd($expression)
             $divisors[] = 3;
             $divisors[] = $min / 3;
         }
+        if ($min % 10 === 0) {
+            $divisors[] = 10;
+            $divisors[] = $min / 10;
+        }
         if ($min % 11 === 0) {
             $divisors[] = 11;
             $divisors[] = $min / 11;
