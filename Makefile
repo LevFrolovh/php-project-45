@@ -11,6 +11,9 @@ brain-even: #запуск игры на чёт/нечёт
 brain-calc: #запуск игры калькулятор
 	./bin/brain-calc
 
+brain-gcd: #запуск игры нод
+	./bin/brain-gcd
+
 validate:
 	composer validate
 
