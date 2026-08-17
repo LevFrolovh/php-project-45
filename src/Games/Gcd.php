@@ -11,3 +11,5 @@ function gcd()
 {
   
 }
+
+greetings();
