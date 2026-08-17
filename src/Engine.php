@@ -10,15 +10,12 @@ function engine(callable $getQuestionAndAnswer, $gameDescription)
 {
     $name = greetings();
     line($gameDescription);
-    
     $round = 0;
     $win = true;
     while ($round < 3 && $win === true) {
-        
         [$question, $rightAnswer] = $getQuestionAndAnswer();
         line("Question: {$question}");
         $answer = prompt('Your answer');
-        
         if ($answer == $rightAnswer) {
             line('Correct!');
             $round++;
