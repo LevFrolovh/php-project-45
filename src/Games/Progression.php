@@ -6,7 +6,12 @@ use function cli\line;
 use function cli\prompt;
 use function BrainGames\Engine\engine;
 
+
+
 function progression()
 {
-    echo "hello lev";
+    $gameDescription = 'What number is missing in the progression?';
+    engine(function () {
+        return getQuestionAndAnswer();
+    }, $gameDescription);
 }
