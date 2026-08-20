@@ -14,6 +14,9 @@ brain-calc: #запуск игры калькулятор
 brain-gcd: #запуск игры нод
 	./bin/brain-gcd
 
+brain-progression: #запуск игры арифмет.прогрессия
+	./bin/brain-progression
+
 validate:
 	composer validate
 
