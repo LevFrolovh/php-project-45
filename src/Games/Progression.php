@@ -10,8 +10,8 @@ function getProgression()
 {
     $start = rand(0, 100);
     $progression[] = $start;
-    $step = rand(1, 100);
-    $lenght = rand(5, 10);
+    $step = rand(1, 20);
+    $lenght = rand(1, 10);
     for ($i = 1; $i < $lenght; $i++) {
         $progression[$i] = $start + $i * $step;
     }
@@ -31,7 +31,7 @@ function getQuestionAndAnswer()
     $progression = getProgression();
     $rightAnswer = getHiddenNum($progression);
     $strProgression = implode(" ", $progression);
-    $question = str_replace($rightAnswer, '..', $strProgression);
+    $question = preg_replace("/{$rightAnswer}/", '..', $strProgression, 1);
     return [$question, $rightAnswer];
 }
 
