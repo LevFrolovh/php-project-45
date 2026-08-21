@@ -11,7 +11,7 @@ function getProgression()
     $start = rand(0, 100);
     $progression[] = $start;
     $step = rand(1, 20);
-    $lenght = rand(1, 10);
+    $lenght = rand(5, 10);
     for ($i = 1; $i < $lenght; $i++) {
         $progression[$i] = $start + $i * $step;
     }
