@@ -18,3 +18,4 @@
 * Brain-even - https://asciinema.org/a/gU8lLvZ7Rm1WEg5R
 * Brain-calc - https://asciinema.org/a/xu2wf9P08W2wORzh
 * Brain-gcd - https://asciinema.org/a/kfdURTHhxM0cTeFI
+* Brain-progression - https://asciinema.org/a/9qrJpFp1zjxBiqnp
