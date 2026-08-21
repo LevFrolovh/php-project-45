@@ -18,7 +18,7 @@ brain-progression: #запуск игры арифмет.прогрессия
 	./bin/brain-progression
 
 brain-prime: #запуск игры простое число
-	.bin/brain-rime
+	.bin/brain-prime
 
 validate:
 	composer validate
