@@ -17,6 +17,9 @@ brain-gcd: #запуск игры нод
 brain-progression: #запуск игры арифмет.прогрессия
 	./bin/brain-progression
 
+brain-prime: #запуск игры простое число
+	.bin/brain-rime
+
 validate:
 	composer validate
 
