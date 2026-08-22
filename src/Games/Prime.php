@@ -27,7 +27,7 @@ function isPrime($number)
 
 function getQuestionAndAnswer()
 {
-    $number = rand(-100, 100);
+    $number = rand(-10, 100);
     $question = $number;
     $rightAnswer = isPrime($number);
     return [$question, $rightAnswer];
