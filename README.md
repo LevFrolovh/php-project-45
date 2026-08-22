@@ -13,6 +13,16 @@
 * [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=LevFrolovh_php-project-45&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=LevFrolovh_php-project-45)
 * [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=LevFrolovh_php-project-45&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=LevFrolovh_php-project-45)
 
+### Описание проекта
+«Игры разума» — набор из пяти консольных игр по мотивам популярных мобильных приложений для тренировки мозга. Каждая игра задаёт вопросы, на которые нужно дать правильные ответы. После трёх правильных ответов игра считается пройденной; неправильный ответ завершает игру и предлагает пройти её заново.
+
+Игры:
+* Калькулятор — вычисление арифметических выражений
+* Прогрессия — поиск пропущенного числа в последовательности
+* Чётное число — определение чётности числа
+* НОД — наибольший общий делитель двух чисел
+* Простое число — проверка числа на простоту
+
 ### Asciinemas:
 * Install dependencies - https://asciinema.org/a/cgbR1OK96CjGSMmf
 * Brain-even - https://asciinema.org/a/gU8lLvZ7Rm1WEg5R
