@@ -19,3 +19,4 @@
 * Brain-calc - https://asciinema.org/a/xu2wf9P08W2wORzh
 * Brain-gcd - https://asciinema.org/a/kfdURTHhxM0cTeFI
 * Brain-progression - https://asciinema.org/a/9qrJpFp1zjxBiqnp
+* Brain-prime - https://asciinema.org/a/eXr7eyCrzlziLkAF
