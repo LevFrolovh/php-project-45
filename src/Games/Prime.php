@@ -32,3 +32,11 @@ function getQuestionAndAnswer()
     $rightAnswer = isPrime($number);
     return [$question, $rightAnswer];
 }
+
+function prime()
+{
+    $gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+    engine(function () {
+        return getQuestionAndAnswer();
+    }, $gameDescription);
+}
