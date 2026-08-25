@@ -37,6 +37,7 @@
    make install
 
 3. запуск каждой игры осуществляется соответствующей командой:
+   
    make brain-even
    make brain-calc
    make brain-gcd
