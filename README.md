@@ -23,6 +23,26 @@
 * НОД (brain-gcd) — наибольший общий делитель двух чисел
 * Простое число (brain-prime) — проверка числа на простоту
 
+### Минимальные требования
+- в вашей системе установлен git
+- действия выполняются в console
+
+### Инструкция по установке и запуску
+1. выполните клонирование этого репозитория в свою систему командой:
+
+git clone https://github.com/LevFrolovh/php-project-45.git
+
+2. в корневой папке проекта установите composer и зависимости командой:
+
+make install
+
+3. запуск каждой игры осуществляется соответствующей командой:
+make brain-even
+make brain-calc
+make brain-gcd
+make brain-progression
+make brain-prime
+
 ### Asciinemas:
 * Install dependencies - https://asciinema.org/a/cgbR1OK96CjGSMmf
 * Brain-even - https://asciinema.org/a/gU8lLvZ7Rm1WEg5R
