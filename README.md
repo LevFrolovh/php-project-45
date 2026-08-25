@@ -39,13 +39,9 @@
 3. запуск каждой игры осуществляется соответствующей командой:
    
    make brain-even
-   
    make brain-calc
-   
    make brain-gcd
-   
    make brain-progression
-   
    make brain-prime
 
 ### Asciinemas:
